@@ -1,0 +1,8 @@
+import time
+mylist=[]
+while(1):
+    s=+1
+    mylist.append(s)
+    print(mylist)
+    
+    time.sleep(1)
