@@ -1,0 +1,21 @@
+s=input()
+
+while(True):
+    
+
+
+    print("What formatting? \n Type '1' for UPPERCASE \n Type '2' for lowercase \n Type '3' for titlecase \n Type '4' for startcase")
+    w=int(input())
+    b=[]
+    if(w==1):
+        ans=s.upper()
+        print(ans)
+    elif(w==2):
+        ans=s.lower()
+        print(ans)
+    elif(w==3):
+        ans=s.title()
+        print(ans)
+    elif(w==4):
+        ans=s.capitalize()
+        print(ans)
