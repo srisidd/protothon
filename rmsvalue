@@ -1,0 +1,12 @@
+a=input()
+sum=0
+mylist=a.split(",")
+print(mylist)
+l=len(mylist)
+print(l)
+for i in mylist:
+    w=float(i)**2    
+    sum=sum+w
+ans=(sum/l)*1.414
+print(ans)
+    
