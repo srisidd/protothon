@@ -1,0 +1,12 @@
+#protosem permutations
+from itertools import permutations
+from nltk.corpus import wordnet
+#nltk.download("wordnet","C:\\Users\\siddh/nltk_data")
+f=permutations("Protosem")
+for i in f:
+    a = ''.join(i)
+#     print(a)
+    if not  wordnet.synsets(a):
+        pass
+    else:
+        print(a)
