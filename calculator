@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main()
+{
+    float a, b, d;
+    int c;
+    printf("Enter two numbers for calculation\n");
+    scanf("%f", &a);
+    scanf("%f", &b);
+    printf("Which operation to perform?\n");
+    printf("Enter '1' for Add \n '2' for Subract \n '3' for Multiplication\n");
+    scanf("%d", &c);
+    switch(c)
+    {
+        case 1:
+        d=a+b;
+        printf("%f", d);
+        break;
+
+        case 2:
+        d=a-b;
+        printf("%f", d);
+        break;
+
+        case 3:
+        d=a*b;
+        printf("%f", d);
+        break;
+
+        case 4:
+        d=a/b;
+        printf("%f", d);
+        break;
+
+
+
+
+    }
+}
